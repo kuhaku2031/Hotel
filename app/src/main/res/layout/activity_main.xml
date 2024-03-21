@@ -45,7 +45,8 @@
         android:layout_marginTop="100dp"
         android:layout_marginRight="50dp"
         android:onClick="onClick"
-        android:text="Iniciar sesion" />
+        android:text="Iniciar sesion"
+        android:tag="iniciar_sesion"/>
 
     <Button
         android:id="@+id/salir"

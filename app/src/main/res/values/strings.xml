@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Hotel</string>
+    <string-array name="room_numbers">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+    </string-array>
 </resources>

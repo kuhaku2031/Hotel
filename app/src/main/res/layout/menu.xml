@@ -6,19 +6,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TableRow
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:gravity="center">
-
-        <TableLayout
-            android:layout_marginEnd="16dp">
+        <TableLayout>
 
             <ImageButton
                 android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_width="241dp"
+                android:layout_height="210dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00FFFFFF"
+                android:gravity="center"
+                android:onClick="onHotelButtonClick"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_menuhotel_foreground"
+                android:tag="hotel"
+                tools:src="@mipmap/ic_menuhotel_foreground"
+                tools:srcCompat="@mipmap/ic_menuhotel_foreground"
+                tools:visibility="visible" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -28,14 +31,22 @@
                 android:text="Habitacion" />
         </TableLayout>
 
-        <TableLayout
-            android:layout_marginStart="16dp">
+        <TableLayout>
 
             <ImageButton
                 android:id="@+id/imageButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:srcCompat="@tools:sample/avatars" />
+                android:layout_width="241dp"
+                android:layout_height="210dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00FFFFFF"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_menupool_foreground"
+                tools:src="@mipmap/ic_menupool_foreground"
+                tools:srcCompat="@mipmap/ic_menupool_foreground"
+                tools:visibility="visible"
+                android:tag="pool"/>
 
             <TextView
                 android:id="@+id/textView4"
@@ -44,5 +55,4 @@
                 android:gravity="center"
                 android:text="Zona Humeda"/>
         </TableLayout>
-    </TableRow>
 </TableLayout>
